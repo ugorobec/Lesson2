@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffc372;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+.login  {
+    width: 250px;
+    margin-top:64px;
+    margin-left: 74px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0;
+    text-align: center;
+    padding: 40px 30px 68px; 
+}
+
+
+h2 {
+    font-size: 16px;
+    letter-spacing: -0.21px;
+}
+input {
+    width: 190px;
+    border: solid 1px rgb(204, 204, 204);
+    padding: 13px 16px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+button {
+    background-color: #cbd3da;
+    width: 190px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 8px;
+    border: none;
+    color: #fff;
+    padding: 9px;
+}
+p {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+a {
+  font-size: 12px;
+}
+
+.main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0 0 158px;
+}
+header {
+    position: relative;
+}
+.burger-menu {
+    position: relative;
+    height: 17px;
+    width: 17px;
+    margin-top: 20px;
+    margin-left: 28px;
+    display: block;
+
+
+}
+.burger-menu span {
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 4px;
+    left:  0;
+    top: 7px;
+    background-color: #fff;
+}
+.burger-menu span:first-child {
+    top: 0;
+}
+.burger-menu span:last-child {
+    top: auto;
+    bottom: 0;
+}

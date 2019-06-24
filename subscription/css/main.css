@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: #308af3;
+}
+
+.container {
+    width: 740px;
+    border-radius: 6px;
+    margin: 0 auto;
+    background-color: #f5fafd;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.logo-wrap {
+    margin: 10px 0 10px 10px;
+}
+    
+.circle {
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    content: '';
+    height: 10px;
+    
+}
+.red {
+    background-color: #ff6058;
+    
+}
+.yellow {
+    background-color: #ffc130;  
+}
+.green {
+    background-color: #28c940;
+}
+.main-title {
+    text-align: center;
+    margin-bottom: 14px;
+    font-size: 21px;
+}
+.free-trial {
+    text-align: center;
+    font-size: 9px;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+.two-buttons {
+    text-align: center;
+}
+.green-button {
+    margin-left: -3px;
+    width: 116px;
+    background-color: #e4edf2;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5b6b82;
+    padding: 12px 36px;
+    border: none;
+    font-size: 8px;
+}
+.green-button:hover {
+    background-color: #3ccf8e;
+    color: #fff;
+    transition: 1s ease;
+}
+.column-wrap {
+    margin: 50px 20px 0 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.version-buy {
+    font-size: 8px;
+    color: #242f40;
+    margin-top: 40px;
+    text-align: center;
+}
+.price-in-dollar {
+  font-size: 15px;  
+  color: #242f40;
+  text-align: center;
+  margin-top: 9px;
+}
+.price-in-dollar span {
+    font-size: 35px;
+}
+ul {
+    margin: 14px 0 25px 20px;
+    font-size: 8px;
+    line-height: 2.2;
+    padding: 0;
+    list-style-type: none;    
+}
+.icon-ok-circled2 {
+    margin-right: 6px;  
+    color: #3ccf8e;
+    
+}
+.sign-up {
+    width: 100px;
+    background-color: #fff;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5b6b82;
+    padding: 8px 16px 9px 17px;
+    border: 0.5px solid gray;
+    font-size: 8px; 
+    transition: 0.5s ease;
+}
+.btn {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.column-1-4:hover {
+    z-index: 3;
+   
+}
+.column-1-4 {
+    position: relative;
+    width: 25%;
+    background-color: #fff;
+    transition: 0.5s ease;
+    z-index: 2;
+}
+.column-1-4:hover .sign-up {
+    background-color: #3ccf8e;
+    color: white;
+}
+.column-1-4:before {
+content: '';
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #fff;
+z-index: -1;
+transition: 0.5s ease;
+top: 0;
+left: 0;
+border: 2px solid #fff;
+box-sizing: border-box;
+box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.1);
+}
+.column-1-4:hover:before {
+    top: -30px;
+    height: calc(100% + 60px);
+    left: -10px;
+    width: calc(100% + 20px);
+    border-color: rgb(0, 210, 138);
+
+}
+.label {
+    font-size: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    background-color: #ffc130;
+    position: absolute;
+    top: 10px;
+    height: 0;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s ease;
+    line-height: 9px;
+    color: #fff;
+}
+.column-1-4:hover .label {
+opacity: 1;
+height: 13px;
+}
