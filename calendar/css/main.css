@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 12px;
+    color: #2c3135;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo img {
+    width: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.container {
+    width: 800px;
+    background-color: #50e3c2;
+    margin: 0 auto;
+    overflow: hidden;
+}
+th {
+    color: #7f8fa4;
+}
+table {
+    position: relative;
+    border-spacing: 2px 15px;
+    border-collapse: separate;
+    margin: 13px 226px 66px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 16px 15px;
+}
+caption {
+    background-color: #fff;
+    font-size: 16px;
+    padding-top: 16px;
+}
+caption:before {
+    content: '<';
+    position: absolute;
+    left: 14px;
+    color: silver;
+}
+caption:after {
+    content: '>';
+    position: absolute;
+    right: 15px;
+    color: silver;
+}
+td, th {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    
+    
+  }
+.no-active {
+   background-color: #edf2f5;   
+   border-radius: 2px;
+   color: silver;
+  }
+.no-active:hover {
+    background-color: #edf2f5;
+    color: silver;
+}
+
+td:hover {
+      background-color: #50e3c2;
+      color: #fff;
+      
+  }
+.icon-cancel-circled2 {
+      color: red;
+      font-size: 16px;
+  }
+.icon-ok-circled2 {
+      color: green;
+  }
+.no-active2:hover {
+    background-color: #fff;
+    color: #2c3135;
+  }
+  .author {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 18px;
+    margin-bottom: 20px;
+  }
